@@ -11,7 +11,7 @@ export default function Kontakt() {
   <div className="w-full h-full text-center">
     <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
       <Footer.Brand
-        href="https://flowbite.com"
+        href="https://www.instagram.com/atelje_simikic/"
         src={atelje}
         alt="Flowbite Logo"
         name="Atelje Simikić"
@@ -22,7 +22,7 @@ export default function Kontakt() {
         <FaFacebook /> Facebook
         </div>
         </Footer.Link>
-        <Footer.Link href="#">
+        <Footer.Link href="https://www.instagram.com/atelje_simikic/" >
           <div className=' flex flex-start justify-between items-center'>
         <FaInstagram /> Instagram
         </div>
@@ -36,7 +36,7 @@ export default function Kontakt() {
     </div>
     <Footer.Divider />
     <Footer.Copyright
-      href="#"
+      href="https://www.linkedin.com/in/cvijan-djukanovic/"
       by="Cvijan Đukanović"
       year={2022}
     />
