@@ -3,6 +3,7 @@ import atelje from '../assets/Atelje-removebg.png'
 import { FaInstagram } from 'react-icons/fa';
 import { FaFacebook} from 'react-icons/fa';
 import { FaPhoneAlt} from 'react-icons/fa';
+import { FaMapMarkerAlt} from 'react-icons/fa';
 
 
 export default function Kontakt() {
@@ -18,9 +19,9 @@ export default function Kontakt() {
         name="Atelje Simikić"
       />
       <Footer.LinkGroup>
-        <Footer.Link href="#">
+        <Footer.Link href="https://www.google.com/maps/place/%D0%90%D1%82%D0%B5%D1%99%D0%B5+%D0%A1%D0%B8%D0%BC%D0%B8%D0%BA%D0%B8%D1%9B/@44.8671503,20.0969606,15z/data=!4m5!3m4!1s0x0:0x62496b765e184163!8m2!3d44.8671503!4d20.0969606">
         <div className=' flex flex-start justify-between items-center'>
-        <FaFacebook /> Facebook
+        <FaMapMarkerAlt /> ŠIMANOVCI Dečka 65
         </div>
         </Footer.Link>
         <Footer.Link href="https://www.instagram.com/atelje_simikic/" >
