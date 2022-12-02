@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './Components/Navbar'
-import Caro from './Components/Caro'
-import Kontakt from './Components/Kontakt'
-import MainAnimation from './Components/MainAnimation'
+import Navbar from './components/Navbar.jsx'
+import Caro from './components/Caro.jsx'
+import Kontakt from './components/Kontakt.jsx'
+import MainAnimation from './components/MainAnimation.jsx'
 import saw from './assets/saw.gif'
-import Type from './Components/Type'
-import CardList from './Components/CardList'
+import Type from './components/Type.jsx'
+import CardList from './components/CardList.jsx'
 
 
 
