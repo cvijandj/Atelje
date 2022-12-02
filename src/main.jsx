@@ -5,6 +5,7 @@ import './index.css'
 import 'flowbite-react'
 import 'flowbite'
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />

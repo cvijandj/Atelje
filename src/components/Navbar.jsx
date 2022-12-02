@@ -4,7 +4,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import atelje from '../assets/Atelje-removebg.png'
 
 const navigation = [
-  { name: 'Projekti', href: '#', current: true },
+  { name: 'Početna', href: '#', current: false },
   { name: 'O nama', href: '#onama', current: false },
   { name: 'Kontakt', href: '#kontakt', current: false },
  
@@ -16,6 +16,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
+    <div className='fixed shadow-md shadow-slate-500 z-50 w-screen'>
     <Disclosure as="nav" className="bg-gray-800  shadow-slate-700">
       {({ open }) => (
         <>
@@ -37,12 +38,12 @@ export default function Navbar() {
                   <img
                     className="block h-8 w-auto lg:hidden"
                     src={atelje}
-                    alt="Your Company"
+                    alt="Loading logo..."
                   />
                   <img
                     className="hidden h-12 w-auto lg:block"
                     src={atelje}
-                    alt="Your Company"
+                    alt="Loading logo..."
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block ">
@@ -100,5 +101,6 @@ export default function Navbar() {
         </>
       )}
     </Disclosure>
+    </div>
   )
 }

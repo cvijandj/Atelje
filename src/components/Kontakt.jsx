@@ -7,6 +7,7 @@ import { FaPhoneAlt} from 'react-icons/fa';
 
 export default function Kontakt() {
     return (
+      <div className='w-screen h-auto'>
       <Footer container={true}>
   <div className="w-full h-full text-center">
     <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
@@ -27,9 +28,9 @@ export default function Kontakt() {
         <FaInstagram /> Instagram
         </div>
         </Footer.Link>
-        <Footer.Link href="#">
+        <Footer.Link href="+38163396836">
         <div className=' flex flex-start justify-between items-center'>
-        <FaPhoneAlt /> Telefon
+        <FaPhoneAlt /> +38163396836
         </div>
         </Footer.Link>
       </Footer.LinkGroup>
@@ -43,5 +44,6 @@ export default function Kontakt() {
   </div>
   
 </Footer>
+</div>
     )
 }
