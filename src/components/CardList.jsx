@@ -11,29 +11,29 @@ let job = ''
 const car = [
  
   job={
-    text: 'Uslužnom obradom raznih vrsta drveta na CNC mašini',
-    htext: 'Obradom drveta na CNC',
+    text: 'Услужном обрадом дрвета на ЦНЦ (CNC) машинама, као и ручном обрадом дрвета.',
+    htext: 'Обрадом дрвета на ЦНЦ (CNC)',
     image: pic2
   },
   job={
-    text: 'Izradom svih vrsta duboreza i reljefa',
-    htext: 'Izradom duboreza i reljefa',
+    text: 'Израдом свих врста дубореза и рељефа',
+    htext: 'Израдом дубореза и рељефа',
     image: pic3
   },
   job={
-    text: 'Izradom svih vrsta ograda, svih vrsta stubova, u različitim veličinama i oblicima',
-    htext: 'Izradom ograda',
+    text: 'Израдом свих врста ограда, стубова, у различитим величинама и облицима.',
+    htext: 'Израдом ограда',
     image: pic4
   },
 
   job={
-    text: 'Restuaracijom nameštaja svih vrsta, kao i uslužnim lakiranjem',
-    htext: 'Restuaracijom nameštaja',
+    text: 'Израда намештаја по вашим мерама и вашим жељама.',
+    htext: 'Израдом намештаја',
     image: pic1
   },
   job={
-    text: 'Izraada ukrasa, okvira, praktično svega što možete zamisliti i što možemo izmodelirati',
-    htext: 'Različitih oblika',
+    text: 'Израдом украса, оквира, лампа, свега што можете замислити, а да је изводљиво измоделирати и израдити.',
+    htext: 'Израдом различитих облика',
     image: pic5
   },
 

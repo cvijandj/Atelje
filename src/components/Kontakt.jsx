@@ -15,18 +15,18 @@ export default function Kontakt() {
       <Footer.Brand
         href="https://www.instagram.com/atelje_simikic/"
         src={atelje}
-        alt="Flowbite Logo"
-        name="Atelje Simikić"
+        alt="Атеље Симикић"
+        name="Атеље Симикић"
       />
       <Footer.LinkGroup>
         <Footer.Link href="https://www.google.com/maps/place/%D0%90%D1%82%D0%B5%D1%99%D0%B5+%D0%A1%D0%B8%D0%BC%D0%B8%D0%BA%D0%B8%D1%9B/@44.8671503,20.0969606,15z/data=!4m5!3m4!1s0x0:0x62496b765e184163!8m2!3d44.8671503!4d20.0969606">
-        <div className=' flex flex-start justify-between items-center'>
-        <FaMapMarkerAlt /> ŠIMANOVCI Dečka 65
+        <div className=' flex justify-around '>
+        <FaMapMarkerAlt /> <p>Шимановци, Дечка 65</p>
         </div>
         </Footer.Link>
         <Footer.Link href="https://www.instagram.com/atelje_simikic/" >
           <div className=' flex flex-start justify-between items-center'>
-        <FaInstagram /> Instagram
+        <FaInstagram /> Инстаграм
         </div>
         </Footer.Link>
         <Footer.Link href="+38163396836">

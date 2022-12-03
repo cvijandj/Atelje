@@ -4,9 +4,9 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import atelje from '../assets/Atelje-removebg.png'
 
 const navigation = [
-  { name: 'Početna', href: '#', current: false },
-  { name: 'O nama', href: '#onama', current: false },
-  { name: 'Kontakt', href: '#kontakt', current: false },
+  { name: 'Почетна', href: '#', current: false },
+  { name: 'О нама', href: '#onama', current: false },
+  { name: 'Контакт', href: '#kontakt', current: false },
  
 ]
 
@@ -25,7 +25,7 @@ export default function Navbar() {
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-                  <span className="sr-only">Open main menu</span>
+                  <span className="sr-only">Прикажи мени</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
                   ) : (

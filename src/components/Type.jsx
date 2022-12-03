@@ -8,14 +8,14 @@ export default function Type() {
           <div className=' m-0 p-0 text-2xl md:text-6xl ledgewood font-bold w-full'>
           <Typewriter
                options={{
-                 strings: ['Zdravo, mi smo Atelje Simikić,'],
+                 strings: ['Здраво, ми смо Атеље Симикић,'],
                  pauseFor: 12000,
                  autoStart: true,
                  loop: true,
                }}
              />
              </div>
-             <h1 className='mt-2 text-lg md:text-6xl ledgewood mr-42 sm:mr-96 font-bold'> Bavimo se:</h1>
+             <h1 className='mt-2 text-lg md:text-6xl ledgewood mr-42 sm:mr-96 font-bold'> Бавимо се:</h1>
              {/**<div className=' m-0 p-0 top-0 text-lg lg:text-6xl  font-bold font-sans w-full '>
              <Typewriter
                options={{
