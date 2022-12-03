@@ -15,7 +15,7 @@ export default function Kontakt() {
       <Footer.Brand
         href="https://www.instagram.com/atelje_simikic/"
         src={atelje}
-        alt="Атеље Симикић"
+        alt="Атеље Симикић, Atelje Simikic, obrada drveta Beograd Simanovci"
         name="Атеље Симикић"
       />
       <Footer.LinkGroup>
